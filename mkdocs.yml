@@ -2,3 +2,6 @@ site_name: Test Book
 theme: material
 markdown_extensions:
     - footnotes
+extra:
+    search:
+        language: 'ja'
