@@ -1,15 +1,20 @@
 site_name: Test Book
 
-theme: material
+theme:
+  name: material
+  feature:
+    tabs: true
 
 markdown_extensions:
-    - footnotes
+  - footnotes
 
 extra:
-    search:
-        language: 'ja'
+  search:
+    language: 'ja'
 
-pages:
-    - one.md
-    - two.md
-    - ３ばんめ: three.md
+nav:
+  - Home: index.md
+  - Contents:
+    - One: one.md
+    - Two: two.md
+    - Three: three.md
