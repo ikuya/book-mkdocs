@@ -1,7 +1,15 @@
 site_name: Test Book
+
 theme: material
+
 markdown_extensions:
     - footnotes
+
 extra:
     search:
         language: 'ja'
+
+pages:
+    - one.md
+    - two.md
+    - ３ばんめ: three.md
